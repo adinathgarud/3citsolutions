@@ -1,0 +1,103 @@
+/* General Styles */
+.business-software {
+    background-image: url('../../../../assets/Add-a-subheading-12.png'); /* Replace with your actual image path */
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    height: 70vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: -110px;
+    z-index: -1;
+  }
+  
+  .business-content {
+    text-align: center;
+    color: white;
+    font-family: 'Arial, sans-serif';
+  }
+  
+  .business-software-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 40px 10%;
+    background-color: aliceblue;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .business-text-content {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .business-image-content {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .business-image-content img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  .business-text-content h2 {
+    color: #00a344;
+  }
+  
+  .business-text-content p {
+    color: #555;
+    line-height: 1.6;
+    font-size: 1rem;
+  }
+  
+  .business-text-content ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    color: #555;
+    line-height: 1.6;
+    font-size: 1rem;
+  }
+  
+  .business-text-content li {
+    margin-bottom: 10px;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 1200px) {
+    .business-software-container {
+      flex-direction: column;
+    }
+  
+    .business-image-content {
+      margin-top: 20px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .business-software {
+      height: 50vh;
+    }
+  
+    .business-content h1 {
+      font-size: 2rem;
+    }
+  
+    .business-software-container {
+      margin: 20px 5%;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .business-software {
+      height: 40vh;
+    }
+  
+    .business-content h1 {
+      font-size: 1.5rem;
+    }
+  }
+  

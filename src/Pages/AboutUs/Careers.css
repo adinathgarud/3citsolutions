@@ -1,0 +1,143 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Carrier Page Styles */
+  .carriar-container {
+    max-width: 1200px;
+    margin: 100px auto;
+    padding: 20px;
+  }
+  
+  /* Top Section */
+  .carriar-top {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  
+  .carriar-top h1 {
+    font-size: 2.5em;
+    color: #333;
+  }
+  
+  /* Main Section */
+  .carriar-down {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  
+  /* Left Side Content */
+  .carriar-content {
+    flex: 3;
+    padding-right: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .search-bar {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+  .search-bar input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px 0 0 4px;
+  }
+  
+  .search-bar button {
+    padding: 10px 20px;
+    border: 1px solid #ddd;
+    border-left: none;
+    border-radius: 0 4px 4px 0;
+    background-color: #28a745;
+    color: white;
+  }
+  
+  .recent-posts, .recent-comments {
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .recent-posts h2, .recent-comments h2 {
+    font-size: 1.8em;
+    color: #333;
+    margin-bottom: 15px;
+  }
+  
+  /* Right Side Sidebar */
+  aside {
+    flex: 1;
+    padding-left: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .archives, .categories {
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .archives h2, .categories h2 {
+    font-size: 1.8em;
+    color: #333;
+    margin-bottom: 15px;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .carriar-down {
+      flex-direction: column;
+    }
+  
+    .carriar-content, aside {
+      padding: 10px;
+      margin-bottom: 20px;
+    }
+  
+    h1, h2 {
+      font-size: 2em;
+    }
+  
+    .search-bar button {
+      padding: 8px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .carriar-container {
+      margin: 20px;
+      padding: 10px;
+    }
+  
+    h1, h2 {
+      font-size: 1.5em;
+    }
+  
+    .search-bar input {
+      font-size: 0.9em;
+    }
+  
+    .search-bar button {
+      padding: 5px;
+    }
+  
+    h2, p {
+      font-size: 1em;
+    }
+  }
+  

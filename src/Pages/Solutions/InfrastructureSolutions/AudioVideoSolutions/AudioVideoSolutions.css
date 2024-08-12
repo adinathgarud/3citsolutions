@@ -1,0 +1,140 @@
+/* General Styles */
+.audio-video-solution-container {
+    background-image: url('../../../../assets/Add-a-subheading-12.png');
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    height: 70vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: -110px;
+    z-index: -1;
+  }
+  
+  .audio-content {
+    text-align: center;
+    color: white;
+    font-family: 'Arial, sans-serif';
+  }
+  
+  .audio-background-contain {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 40px 10%;
+    background-color: aliceblue;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .audio-text-contain {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .audio-background-contain-img {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .audio-background-contain-img img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  .audio-sub-heading {
+    color: #00a344;
+    font-size: 1.2rem;
+  }
+  
+  .audio-description {
+    color: #555;
+    line-height: 1.6;
+    font-size: 1rem;
+  }
+  
+  .audio-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 40px 10%;
+  }
+  
+  .audio-column {
+    flex: 1;
+    min-width: 200px;
+    margin: 10px;
+  }
+  
+  .audio-column ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .audio-column li {
+    background: #f9fbfd;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .audio-column li:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 1200px) {
+    .audio-background-contain {
+      flex-direction: column;
+    }
+  
+    .audio-background-contain-img {
+      margin-top: 20px;
+    }
+  
+    .audio-column {
+      flex: 1 1 45%;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .audio-video-solution-container {
+      height: 50vh;
+    }
+  
+    .audio-content h1 {
+      font-size: 2rem;
+    }
+  
+    .audio-background-contain {
+      margin: 20px 5%;
+    }
+  
+    .audio-container {
+      margin: 20px 5%;
+    }
+  
+    .audio-column {
+      flex: 1 1 100%;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .audio-video-solution-container {
+      height: 40vh;
+    }
+  
+    .audio-content h1 {
+      font-size: 1.5rem;
+    }
+  
+    .audio-column ul {
+      padding-left: 20px;
+    }
+  }
+  

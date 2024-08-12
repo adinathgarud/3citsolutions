@@ -1,0 +1,122 @@
+.Remote-Service {
+    background-image:url("../../../../assets/front-remote-infra.png");
+      background-size: cover;
+      background-position: center;
+      height: 95vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: #fff;
+      text-align: center;
+      margin-top: -110px;
+      background-attachment: fixed;
+      z-index: -1;
+    }
+    
+    .Remote-content {
+      
+      padding: 20px;
+      border-radius: 10px;
+    }
+    
+    h1 {
+      font-size: 3rem;
+      margin: 0.5em 0;
+     
+      
+    }
+    
+   
+    
+    
+  
+    .Remote-Service-container {
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      padding: 80px;
+      background-color: #f8f9fa;
+      color: #333;
+      margin: 10%;
+  }
+  
+  .Remote-text-content {
+      flex: 1;
+      margin-right: 20px;
+  }
+  
+  .Remote-text-content h2 {
+      font-size: 2.8rem;
+      margin-bottom: 20px;
+      font-weight: bold;
+      justify-content: left;
+      
+  }
+  
+  .Remote-text-content p {
+      font-size: 1rem;
+      line-height: 1.3;
+      margin-bottom: 20px;
+      font-weight: 500;
+      color: #7c7777;
+  }
+  
+  
+  
+  .Remote-image-content {
+      flex: 1;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  
+  .Remote-image-content img {
+      max-width: 100%;
+      height: auto;
+     
+  }
+
+
+  /*Remone management container*/
+  .Remote-management-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+    background-color: #ffffff;
+    color: #333;
+    margin: 10%;
+}
+
+.Remote-text-management-content {
+   
+  width: 100%;
+}
+
+
+.Remote-text-management-content p {
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.4;
+    margin-bottom: 20px;
+    
+}
+
+
+
+
+
+.Remote-management-image-content {
+    
+    display: flex;
+    justify-content: center;
+    
+}
+
+.Remote-management-image-content img {
+    max-width: 80%;
+    height: auto;
+    
+}
+
+

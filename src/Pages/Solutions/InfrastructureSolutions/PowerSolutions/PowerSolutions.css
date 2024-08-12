@@ -1,0 +1,148 @@
+/* General Styles */
+.power-solution-container {
+  position: relative;
+  width: 100%;
+  height: 70vh;
+  background-image: url('../../../../assets/Add-a-subheading-12.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: -110px;
+  z-index: -1;
+}
+
+.power-content {
+  text-align: center;
+  color: white;
+  font-family: 'Arial, sans-serif';
+}
+
+.power-background-contain {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 40px 10%;
+  background-color: aliceblue;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.power-text-contain {
+  flex: 1;
+  padding: 20px;
+}
+
+.power-background-contain-img {
+  flex: 1;
+  text-align: center;
+}
+
+.power-background-contain-img img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.power-sub-heading {
+  color: #00a344;
+  font-size: 1.2rem;
+}
+
+.power-description {
+  color: #555;
+  line-height: 1.6;
+  font-size: 1rem;
+}
+
+.power-card-solutions {
+  margin: 40px 10%;
+}
+
+.power-card-solutions h1 {
+  text-align: center;
+  color: #00a344;
+  margin-bottom: 20px;
+}
+
+.power-solutions-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.power-solution-card {
+  background: #f9fbfd;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  flex: 1;
+  max-width: 300px;
+}
+
+.power-solution-card img {
+  max-width: 25%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.power-solution-card h2 {
+  color: #00a344;
+  margin-bottom: 10px;
+}
+
+.power-solution-card p {
+  color: #555;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+/* Responsive Styles */
+@media (max-width: 1200px) {
+  .power-background-contain {
+    flex-direction: column;
+  }
+
+  .power-background-contain-img {
+    margin-top: 20px;
+  }
+
+  .power-solutions-container {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .power-solution-container {
+    height: 50vh;
+  }
+
+  .power-content h1 {
+    font-size: 2rem;
+  }
+
+  .power-background-contain {
+    margin: 20px 5%;
+  }
+
+  .power-card-solutions {
+    margin: 20px 5%;
+  }
+}
+
+@media (max-width: 480px) {
+  .power-solution-container {
+    height: 40vh;
+  }
+
+  .power-content h1 {
+    font-size: 1.5rem;
+  }
+}

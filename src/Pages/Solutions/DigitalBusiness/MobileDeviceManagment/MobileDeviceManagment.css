@@ -1,0 +1,144 @@
+/* General Styles */
+.mdm-solutions {
+    background-image: url('../../../../assets/Add-a-subheading-12.png');
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    height: 70vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: -110px;
+    z-index: -1;
+  }
+  
+  .mdm-content {
+    text-align: center;
+    color: white;
+    font-family: 'Arial, sans-serif';
+  }
+  
+  .mdm-solution-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 40px 10%;
+    background-color: aliceblue;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .mdm-text-content {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .mdm-image-content {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .mdm-image-content img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  .mdm-text-content h2 {
+    color: #00a344;
+  }
+  
+  .mdm-text-content p {
+    color: #555;
+    line-height: 1.6;
+    font-size: 1rem;
+  }
+  
+  .mdm-text-content ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    color: #555;
+    line-height: 1.6;
+    font-size: 1rem;
+  }
+  
+  .mdm-text-content li {
+    margin-bottom: 10px;
+  }
+  
+  .app-screenshots-container {
+    text-align: center;
+    margin: 40px 10%;
+  }
+  
+  .app-screenshots-container h2 {
+    color: #00a344;
+    margin-bottom: 20px;
+  }
+  
+  .app-screenshots-container h2 span {
+    color: #00a344;
+  }
+  
+  .app-screenshots-container p {
+    color: #555;
+    margin-bottom: 20px;
+  }
+  
+  .screenshots {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .screenshots img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin: 10px;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 1200px) {
+    .mdm-solution-container {
+      flex-direction: column;
+    }
+  
+    .mdm-image-content {
+      margin-top: 20px;
+    }
+  
+    .screenshots {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .mdm-solutions {
+      height: 50vh;
+    }
+  
+    .mdm-content h1 {
+      font-size: 2rem;
+    }
+  
+    .mdm-solution-container {
+      margin: 20px 5%;
+    }
+  
+    .app-screenshots-container {
+      margin: 20px 5%;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .mdm-solutions {
+      height: 40vh;
+    }
+  
+    .mdm-content h1 {
+      font-size: 1.5rem;
+    }
+  }
+  

@@ -1,0 +1,117 @@
+.IT-Service {
+    background-image:url("../../../../assets/front-it-managed-service.png");
+      background-size: cover;
+      background-position: center;
+      height: 95vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: #fff;
+      text-align: center;
+    }
+    
+    .IT-content {
+      
+      padding: 20px;
+      border-radius: 10px;
+    }
+    
+    h1 {
+      font-size: 3rem;
+      margin: 0.5em 0;
+     
+      
+    }
+    
+   
+    
+    /*IT Managed servcie  elementor*/
+  
+    .IT-Service-container {
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      padding: 80px;
+      background-color: #f8f9fa;
+      color: #333;
+      
+  }
+  
+  .IT-text-content {
+      flex: 1;
+      margin-right: 20px;
+  }
+  
+  .IT-text-content h2 {
+      font-size: 2.8rem;
+      margin-bottom: 20px;
+      font-weight: bold;
+      padding-left: 100px;
+      
+  }
+  
+  .It-text-content p {
+      font-size: 1.1rem;
+      line-height: 1.6;
+      margin-bottom: 20px;
+      
+  }
+  
+  .IT-text-content ul {
+      list-style-type: disc;
+      margin-left: 20px;
+  }
+  
+  .IT-text-content ul li {
+      font-size: 1,1rem;
+      margin-bottom: 10px;
+  }
+  
+  .IT-image-content {
+      flex: 1;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  
+  .IT-image-content img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 10px;
+  }
+
+
+  /*it managed our services*/
+  .services {
+    text-align: center;
+    padding: 40px;
+    background-color: #fff;
+}
+
+.services h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.services .highlight {
+    color: #4CAF50;
+}
+
+.services-list {
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+}
+
+.services-list ul {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+}
+
+.services-list li {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    color: #333;
+}
+

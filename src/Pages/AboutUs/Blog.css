@@ -1,0 +1,124 @@
+/* Base styles */
+
+  
+  .blog-content {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .blog-heading {
+    width: 100%;
+    text-align: center;
+    height: 40vh;
+    display: grid;
+    border-block-end-style: solid;
+    border-block-end-width: 2px;
+    border-block-end-color: #ddd;
+    align-items: center;
+  }
+  
+  
+  
+  .left-blog-content,
+  .right-blog-content {
+   display: grid;
+    min-width: 30%;
+    justify-content: center;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    background-color: #ffffff;
+    align-items: center;
+  }
+  
+  .left-blog-content h2,
+  .right-blog-content h2 {
+    font-size: 50px;
+    margin-bottom: 10px;
+  }
+  
+  .search-bar {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+   
+}
+  
+  .search-bar input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    height: 5vh;
+
+  }
+  
+  .search-bar button {
+    padding: 10px;
+    background-color: #00b862;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    
+    height: 7.5vh;
+  }
+  
+  .search-bar button:hover {
+    background-color: #2d2e2e;
+  }
+  
+  .recent-posts,
+  .recent-comments,
+  .archives,
+  .categories {
+    margin-top: 8px;
+  }
+  
+  .recent-comments p,
+  .archives p,
+  .categories p {
+    font-size: 16px;
+    color: #666;
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 768px) {
+    .blog-content {
+      flex-direction: column;
+    }
+  
+    .left-blog-content,
+    .right-blog-content {
+      margin-bottom: 20px;
+    }
+  
+    .search-bar button {
+      margin-top: 0;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .blog-heading h1 {
+      font-size: 1.5em;
+    }
+  
+    .left-blog-content h2,
+    .right-blog-content h2 {
+      font-size: 1.2em;
+    }
+  
+    .search-bar button {
+      padding: 8px;
+    }
+  
+    .recent-comments p,
+    .archives p,
+    .categories p {
+      font-size: 0.8em;
+    }
+  }
+  

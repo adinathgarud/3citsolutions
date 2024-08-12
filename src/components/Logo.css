@@ -1,0 +1,12 @@
+/* src/components/Logo.css */
+
+.logo {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.logo img {
+    max-height: 70px; /* Adjust the height as necessary */
+    max-width: 100%; /* Ensures the logo does not exceed its container width */
+}

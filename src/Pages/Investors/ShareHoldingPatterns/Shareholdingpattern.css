@@ -1,0 +1,87 @@
+/* Container for the Shareholding Patterns */
+.shareholding-patterns {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: left;
+  }
+  
+  /* Headings */
+  .shareholding-patterns h3 {
+    color: #6d6d6d;
+    margin-bottom: 20px;
+    font-size: 24px;
+  }
+  
+  /* Each Shareholding Item */
+  .shareholding-item {
+   /* display: flex;*/
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    margin-bottom: 30px;
+    
+  }
+  
+  /* Button Style */
+  .shareholding-item button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+    margin-top: 50px;
+  }
+  
+  .shareholding-item button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Text Style */
+  .shareholding-item p {
+    margin: 0;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  /* Responsive Design */
+  
+  /* For tablets */
+  @media (max-width: 768px) {
+    .shareholding-item {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+    
+    .shareholding-item button {
+      width: 100%;
+      margin-top: 10px;
+    }
+  }
+  
+  /* For mobile devices */
+  @media (max-width: 480px) {
+    .shareholding-patterns {
+      padding: 15px;
+    }
+    
+    .shareholding-patterns h3 {
+      font-size: 20px;
+    }
+  
+    .shareholding-item {
+      padding: 8px;
+    }
+    
+    .shareholding-item p {
+      font-size: 14px;
+    }
+  
+    .shareholding-item button {
+      font-size: 14px;
+    }
+  }
+  

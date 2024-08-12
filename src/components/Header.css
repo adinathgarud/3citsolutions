@@ -1,0 +1,11 @@
+/* src/components/Header.css */
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #ECECEC78;
+    padding: 10px 20px;
+    height: 8vh;
+    
+}

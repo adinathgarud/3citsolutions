@@ -1,0 +1,210 @@
+.corporate-governance-container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    margin: 5% 0 10% 0;
+  }
+  
+  .accordion-section {
+    margin: 0.1% 7% 0% 7%;
+  }
+  
+  .accordion-toggle {
+    width: 100%;
+    text-align: left;
+    padding: 15px;
+    background-color: #188A2C;
+    color: white;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    outline: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .accordion-toggle:hover {
+    background-color: #145a1f;
+  }
+  
+  .accordion-content {
+    background-color: rgb(253, 228, 228);
+    padding: 20px;
+    border: 1px solid #188A2C;
+    border-radius: 0 0 4px 4px;
+    animation: fadeIn 1.5s ease;
+  }
+  
+  .accordion-content h2 {
+    font-size: 3rem; /* Adjusted for better responsiveness */
+    margin-bottom: 50px;
+    text-align: center;
+    color: #292626;
+  }
+  
+  .accordion-content h3 {
+    font-size: 1.8rem;
+    margin-bottom: 30px;
+    text-align: center;
+    color: #8a7b7b;
+  }
+  
+  .accordion-content p {
+    padding-left: 25px; /* Reduced padding for better responsiveness */
+  }
+  
+  #company-secretary {
+    font-size: 1rem;
+    color: #8a7b7b;
+    text-align: left;
+    margin-bottom: 10px;
+    padding-left: 25px; /* Reduced padding */
+  }
+  
+  .directors-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columns on large screens */
+    gap: 20px;
+    justify-items: center;
+    align-items: center;
+  }
+  
+  .director-card {
+    background-color: white;
+    box-shadow: 7px 7px 7px rgba(17, 16, 16, 0.5);
+    text-align: center;
+    
+    overflow: hidden;
+  }
+  
+  .director-image {
+    width: 100%;
+    height: auto;
+  }
+  
+  .director-name {
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 5px 15px 0 15px;
+  }
+  
+  .director-designation {
+    font-size: 0.8rem;
+    color: #555;
+    padding: 0px 15px 20px 15px;
+  }
+  
+  .committee-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  .committee-table th, .committee-table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  .committee-table th {
+    background-color: #188A2C;
+    color: white;
+  }
+  
+  .committee-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(-10px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  /* Media Queries for Responsive Design */
+  @media (max-width: 1024px) {
+    .accordion-section {
+      margin: 0.1% 5% 0% 5%; /* Adjusted margins for better fit on tablets */
+    }
+  
+    .directors-grid {
+      grid-template-columns: repeat(2, 1fr); /* 2 columns on medium screens */
+    }
+  
+    .accordion-content h2 {
+      font-size: 2.5rem;
+    }
+  
+    .accordion-content h3 {
+      font-size: 1.6rem;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .accordion-section {
+      margin: 0.1% 3% 0% 3%; /* Further margin adjustment for smaller screens */
+    }
+  
+    .directors-grid {
+      grid-template-columns: 1fr; /* 1 column on small screens */
+      gap: 10px; /* Reduced gap for smaller screens */
+    }
+  
+    .accordion-content h2 {
+      font-size: 2rem;
+    }
+  
+    .accordion-content h3 {
+      font-size: 1.4rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .accordion-section {
+      margin: 0.1% 2% 0% 2%; /* Further reduced margins for mobile screens */
+    }
+  
+    .accordion-content h2 {
+      font-size: 1.8rem;
+    }
+  
+    .accordion-content h3 {
+      font-size: 1.2rem;
+    }
+  
+    .accordion-toggle {
+      font-size: 14px; /* Smaller text for better readability on mobile */
+      padding: 12px;
+    }
+  
+    .committee-table th, .committee-table td {
+      padding: 8px; /* Smaller padding for mobile */
+    }
+  
+    .committee-table th {
+      font-size: 0.9rem; /* Adjusted font size for mobile */
+    }
+  
+    .committee-table td {
+      font-size: 0.8rem;
+    }
+  
+    .director-card {
+      padding: 10px; /* Adjusted padding for mobile */
+    }
+  
+    .director-name {
+      font-size: 0.9rem;
+    }
+  
+    .director-designation {
+      font-size: 0.7rem;
+    }
+  }
+  

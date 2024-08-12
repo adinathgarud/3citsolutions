@@ -1,0 +1,144 @@
+/* CSS */
+.Codepolicie-bg {
+    position: relative;
+    background-image: url('../../../assets/financial-bg.jpg'); /* Replace with your actual image path */
+    background-size: cover;
+    background-position: center;
+    height: 95vh;
+    margin-top: -110px;
+    position: relative;
+    z-index: -1;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    
+  }
+  
+  .Codepolicie-bg .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5); /* Black with 50% opacity */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  
+  .Codepolicie-bg h1, .Codepolicie-bg h3 {
+    position: relative;
+    z-index: 1;
+  }
+  
+  .Codepolicie-bg h1 {
+    font-size: 3rem;
+    margin: 0;
+  }
+  
+  .Codepolicie-bg h3 {
+    font-size: 1.5rem;
+    margin: 0;
+    color: #cec6c6;
+  }
+  
+  .Codepolicie-container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    align-items: center;
+    margin: 5% 0 10% 5%;
+  }
+  
+  .Codepolicie-title {
+    font-size: 2.5rem;
+    text-align: center;
+    color: #ffffff;
+    width: 100%;
+    background-color: #27ae60;
+    margin-top: 0px;
+    margin-bottom: 30px;
+  }
+  
+  .Codepolicie-accordion-section {
+    margin: 0 10%;
+  }
+  
+  .Codepolicie-accordion-toggle {
+    width: 100%;
+    text-align: left;
+    padding: 15px;
+    background-color: #27ae60;
+    color: white;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    outline: none;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+    margin-bottom: 1px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .Codepolicie-accordion-toggle:hover {
+    background-color: #27ae60;
+  }
+  
+  .Codepolicie-icon {
+    margin-right: 10px;
+    font-size: 18px;
+    display: inline-block;
+    width: 20px;
+    text-align: center;
+  }
+  
+  .Codepolicie-accordion-content {
+    display: none;
+    background-color: #f2f2f2;
+    padding: 20px;
+    border: 1px solid #27ae60;
+   
+    margin-bottom: 1px;
+  }
+  
+  .Codepolicie-accordion-content p {
+    font-size: 1rem;
+    color: #292626;
+    margin-left: 20px;
+  }
+  
+  .Codepolicie-accordion-content.active {
+    display: block;
+    animation: fadeIn 1.5s ease;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(-10px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .Codepolicie-accordion-section {
+      margin: 0 0%;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .Codepolicie-accordion-toggle {
+      font-size: 14px;
+      padding: 12px;
+    }
+  }
+  

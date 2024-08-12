@@ -1,0 +1,169 @@
+/* General Styles */
+.networking-solutions {
+    background-image: url('../../../../assets/Add-a-subheading-6.png');
+   display: grid;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: -110px;
+    position: relative;
+    height: 95vh;
+    justify-items: center;
+    background-attachment: fixed;
+    align-items: end;
+    z-index: -1;
+  }
+  
+  .networking-solutions-content {
+    text-align: center;
+    margin-bottom: 50px;
+    display: grid;
+  }
+  
+  .networking-solutions-content h1 {
+    font-size: 3rem;
+    color: #ffffff;
+    
+   
+  }
+  
+  .networking-solutions-background-contain {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0 10%;
+    /*background-color: rgb(235, 235, 235);*/
+   
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    padding: 20px;
+    margin-top: 10%;
+    margin-bottom: 10%;
+  }
+  
+  .networking-solutions-text-contain {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .networking-solutions-background-contain-img {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .networking-solutions-background-contain-img img {
+    max-width: 100%;
+    height: auto;
+    
+  }
+  
+  .networking-solutions-sub-heading {
+    color: #00a344;
+    font-size: 1.2rem;
+  }
+  
+  .networking-solutions-description {
+    color: #555;
+    line-height: 1.6;
+    font-size: 1rem;
+  }
+  
+  .networking-solutions-types-of-Networking-container {
+    text-align: center;
+    margin: 50px 10%;
+  }
+  
+  .networking-solutions-types-of-Networking-container h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .networking-solutions-highlight {
+    color: #00a344;
+  }
+  
+  .networking-solutions-NetworkingSolutionServicesCard-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #ffffff;
+    margin-top: 30px;
+  }
+  
+  .networking-solutions-service-card {
+    background-color: rgb(255, 255, 255);
+    width: calc(30% - 10px);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-align: left;
+  }
+  
+  .networking-solutions-service-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .networking-solutions-icon {
+    font-size: 2.5rem;
+    color: #00a344;
+    margin-bottom: 10px;
+  }
+  
+  .networking-solutions-service-card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #00a344;
+  }
+  
+  .networking-solutions-service-card p {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.5;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 1200px) {
+    .networking-solutions-background-contain {
+      flex-direction: column;
+    }
+  
+    .networking-solutions-background-contain-img {
+      margin-top: 20px;
+    }
+  
+    .networking-solutions-service-card {
+      width: calc(45% - 10px);
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .networking-solutions h1 {
+      font-size: 2.5rem;
+    }
+  
+    .networking-solutions-types-of-Networking-container h1 {
+      font-size: 2rem;
+    }
+  
+    .networking-solutions-service-card {
+      width: calc(100% - 20px);
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .networking-solutions h1 {
+      font-size: 2rem;
+    }
+  
+    .networking-solutions-types-of-Networking-container h1 {
+      font-size: 1.8rem;
+    }
+  
+    .networking-solutions-service-card {
+      width: calc(100% - 20px);
+    }
+  }
+  

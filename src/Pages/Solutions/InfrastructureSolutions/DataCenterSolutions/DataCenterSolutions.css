@@ -1,0 +1,244 @@
+.datacenter-container {
+    text-align: center;
+    padding: 20px;
+    background-image: url('../../../../assets/Add-a-subheading-4.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    margin-top: -110px;
+    height: 80vh;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+  }
+  
+  .datacenter-container h2 {
+    font-size: 3em;
+    color: #ffffff;
+
+  }
+  
+  .datacenter-contain {
+    max-width: 1200px;
+    margin: 5% auto;
+    padding: 20px;
+    background-color: #fff;
+  }
+  
+  .datacenter-contain h1 {
+    font-size: 2.5em;
+    color: #000000;
+    text-align: center;
+    
+  }
+  
+  .datacenter-contain h1 span {
+    color: #00944a;
+    font-family: "Playfair Display", Sans-serif;
+  }
+  
+  .datacenter-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .text {
+    flex: 1 1 45%;
+    padding: 20px;
+  }
+  
+  .text p {
+    font-size: 1em;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 16px;
+  }
+  
+  .datacenter-image {
+    flex: 1 1 45%;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .datacenter-image img {
+    max-width: 100%;
+    height: auto;
+   
+  }
+  .datacenter-services-main{
+    background-color: #e9e6e6;
+  }
+  .datacenter-cont {
+    max-width: 1200px;
+    margin: 5% auto;
+    padding: 20px;
+   
+    
+  }
+  
+  .datacenter-cont h1 {
+    font-size: 2.5em;
+    color: #333;
+    text-align: center;
+  }
+  
+  .datacenter-cont h1 span {
+    color: #006b30;
+    font-family: "Playfair Display", Sans-serif;
+  }
+
+ 
+  
+  .datacenter-description {
+    text-align: center;
+    font-size: 1em;
+    color: #555;
+    margin-bottom: 20px;
+  }
+  
+  .datacenter-services {
+    display: flex;
+    flex-wrap:nowrap;
+    justify-content: space-evenly;
+    flex-direction: row;
+    justify-items: center;
+    
+  }
+  
+  .datacenter-service-item {
+    text-align: start;
+    flex: 1 1 30%;
+    margin: 10px;
+    padding: 20px;
+    background-color: #fff;
+    
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .datacenter-service-item img {
+    max-width: 60px;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .datacenter-service-item h2 {
+    font-size: 1.5em;
+    color: #27ae60;
+    margin-bottom: 10px;
+    text-align: left;
+  }
+  
+  .datacenter-service-item h2:hover{
+    color: #000000;
+   
+  }
+
+  .datacenter-service-item p {
+    font-size: 1em;
+    color: #555;
+  }
+  
+  .datacenter-key-con {
+    max-width: 1200px;
+    margin: 5% auto;
+    padding: 20px;
+    
+  }
+  
+  .datacenter-key-con h1 {
+    font-size: 2.5em;
+    color: #333;
+    text-align: center;
+  }
+  
+  .datacenter-key-con h1 span {
+    color: #006e2e;
+  }
+  
+  .datacenter-descrip {
+    text-align: center;
+    font-size: 1em;
+    color: #555;
+    margin-bottom: 20px;
+  }
+  
+  .datacenter-features {
+    display: flex;
+    flex-wrap:nowrap;
+    justify-content: space-evenly;
+    flex-direction: row;
+    justify-items: center;
+  }
+  
+  .datacenter-feature-item {
+    text-align: start;
+    flex: 1 1 30%;
+    margin: 10px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .datacenter-feature-item img {
+    max-width: 60px;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .datacenter-feature-item h2 {
+    font-size: 1.5em;
+    color: #27ae60;
+    margin-bottom: 10px;
+    text-align: left;
+  }
+
+  .datacenter-feature-item h2:hover{
+    color: #000000;
+  }
+  
+  .datacenter-feature-item p {
+    font-size: 1em;
+    color: #555;
+  }
+  
+  @media (max-width: 768px) {
+    .datacenter-content {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .text, .datacenter-image {
+      flex: 1 1 100%;
+      padding: 10px;
+    }
+  
+    .datacenter-services, .datacenter-features {
+      flex-direction: column;
+    }
+  
+    .datacenter-service-item, .datacenter-feature-item {
+      flex: 1 1 100%;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .datacenter-container h2, .datacenter-contain h1, .datacenter-cont h1, .datacenter-key-con h1 {
+      font-size: 2em;
+    }
+  
+    .text p, .datacenter-description, .datacenter-descrip {
+      font-size: 0.9em;
+    }
+  
+    .datacenter-service-item h2, .datacenter-feature-item h2 {
+      font-size: 1.2em;
+    }
+  
+    .datacenter-service-item p, .datacenter-feature-item p {
+      font-size: 0.9em;
+    }
+  }
+  

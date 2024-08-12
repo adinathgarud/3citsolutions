@@ -1,0 +1,116 @@
+.grievance-container {
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    margin: 5% 10% 20% 10%;
+    
+  }
+
+  .toggle-button {
+   
+    color: rgb(0, 0, 0);
+   border: none;
+   /* padding: 10px 20px;*/
+    font-size: 24px;
+    cursor: pointer;
+   border-radius: 5px;
+   background-color: #fff;
+    margin-bottom: 20px;
+  }
+  
+  .toggle-button:hover {
+    background-color: #4cd46a50;
+  }
+  
+  
+  .grievance-section {
+   /* background-color: #f9f9f9;
+    border: 1px solid #ddd; */
+    border-radius: 5px;
+    padding: 20px;
+  }
+  
+  .grievance-content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .grievance-item {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 15px;
+  }
+  
+  h2 {
+    text-align: left;
+  }
+  
+  h3 {
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  p {
+    margin: 5px 0;
+  }
+  
+  a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Responsive Design */
+  @media (min-width: 768px) {
+    .grievance-content {
+      flex-direction: row;
+      justify-content: space-between;
+    }
+  
+    .grievance-item {
+      flex: 1;
+      margin: 0 10px;
+    }
+  }
+  
+  @media (max-width: 767px) {
+    .grievance-content {
+      flex-direction: column;
+    }
+  
+    .grievance-item {
+      margin-bottom: 20px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .grievance-container {
+      padding: 10px;
+    }
+  
+    .grievance-section {
+      padding: 15px;
+    }
+  
+    .grievance-item {
+      padding: 10px;
+    }
+  
+    h2 {
+      font-size: 1.5rem;
+    }
+  
+    h3 {
+      font-size: 1.2rem;
+    }
+  
+    p {
+      font-size: 0.9rem;
+    }
+  }
+  
