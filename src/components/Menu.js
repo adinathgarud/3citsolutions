@@ -16,7 +16,7 @@ const Menu = () => {
                 <img src={menuIcon} alt="Menu Icon" />
             </div>
             <ul className={`menu ${isMenuOpen ? 'open' : ''}`}>
-                <li><Link to="/3citsolutions" onClick={toggleMenu}>Home</Link></li>
+                <li><Link to="/3citsolutions/" onClick={toggleMenu}>Home</Link></li>
                 <li>
                     <Link to="/#">About Us</Link>
                     <ul className="submenu">
